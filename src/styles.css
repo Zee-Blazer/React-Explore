@@ -25,3 +25,9 @@
     color: white;
     text-decoration: none;
 }
+
+.list_item {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
