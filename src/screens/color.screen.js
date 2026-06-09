@@ -1,11 +1,13 @@
 
+// Components
 import NavBarComp from '../component/navbar.comp';
+import ColorPickerComp from '../component/color/color-picker.comp';
 
 const ColorScreen = () => {
   return (
     <div>
         <NavBarComp />
-        <h1>Color Screen</h1>
+        <ColorPickerComp />
     </div>
   );
 };

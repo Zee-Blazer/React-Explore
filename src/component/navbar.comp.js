@@ -1,11 +1,15 @@
 
+import '../styles.css';
+
+import { Link } from 'react-router-dom';
+
 const NavBarComp = () => {
   return (
-    <nav>
+    <nav className="nav">
       <ul>
-        <li>Home</li>
-        <li>Color</li>
-        <li>Todo</li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/color">Color</Link></li>
+        <li><Link to="/todo">Todo</Link></li>
       </ul>
     </nav>
   );
