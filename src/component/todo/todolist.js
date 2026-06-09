@@ -1,6 +1,9 @@
 
 import "../../styles.css";
 
+// Component 
+import TodoModalComp from "./todo-modal.comp";
+
 const TodoList = () => {
 
     return (
@@ -24,6 +27,8 @@ const TodoList = () => {
                     <p>Todo 3</p>
                 </div>
             </div>
+
+            <TodoModalComp />
         </div>
     )
 }
