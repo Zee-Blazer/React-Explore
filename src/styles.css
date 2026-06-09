@@ -26,8 +26,36 @@
     text-decoration: none;
 }
 
+.flex_display {
+    display: flex;
+}
+
+.flex_spacing {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo_create {
+    width: 100px;
+    height: 40px;
+    border-radius: 12px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 7px 10px;
+}
+
 .list_item {
     display: flex;
     padding: 10px;
+    align-items: center;
     border-bottom: 1px solid #ccc;
+}
+
+.list_item_box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    cursor: pointer;
 }
